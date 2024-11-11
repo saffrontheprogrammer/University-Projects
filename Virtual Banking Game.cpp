@@ -106,7 +106,7 @@ void DFunds() { // Deposit funds in account
 }
 
 void WDFunds() { // Withdraw funds from account and show new amount on console
-	cout << "Enter amount you wish to withdraw: \x9C"; // \x9C is character code for £ sign computer understands
+	cout << "Enter amount you wish to withdraw: \x9C"; // \x9C is character code for Â£ sign computer understands
 	cin >> withdrawal;
 	if (withdrawal > 0 && withdrawal <= NewBalance) {
 		NewBalance -= withdrawal;
