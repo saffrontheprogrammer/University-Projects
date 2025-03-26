@@ -6,10 +6,10 @@ def checkpoint1():
     total_minutes = 5  #how many minutes checkpoint lasts
 
 #Loop through each minute, updating the car count as going along
-    	for minute in range(1, total_minutes + 1): #Used to work out the total number of cars at the current minute
-        cars = arithmetic_sequence(initial_cars, increase_per_minute, minute)
-        #Displays result for the current minute
-        print(f"At minute {minute}: {cars} cars")
+    for minute in range(1, total_minutes + 1): #Used to work out the total number of cars at the current minute
+     cars = arithmetic_sequence(initial_cars, increase_per_minute, minute)
+     #Displays result for the current minute
+     print(f"At minute {minute}: {cars} cars")
 
 #Function to calculate arithmetic sequence for cars
 def arithmetic_sequence(a1, d, n):
